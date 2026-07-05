@@ -47,3 +47,15 @@ Confusion matrix:
 ## Dataset
 
 The dataset is not included in this repository.
+
+## Documentation
+
+- [Model Card](docs/model_card.md)
+- [Dataset Card](docs/dataset_card.md)
+- [Sanitized Technical Report](docs/term_paper_sanitized.pdf)
+
+## Results Files
+
+- [Test metrics](results/recommended_test_metrics.json)
+- [Confusion matrix](results/confusion_matrix_test_recommended_threshold.png)
+- [ROC curve](results/roc_curve_test_threshold_solutions.png)
