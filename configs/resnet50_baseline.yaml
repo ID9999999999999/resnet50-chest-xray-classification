@@ -1,0 +1,31 @@
+project_name: resnet50-chest-xray-classification
+model: resnet50
+pretrained: imagenet
+
+task:
+  type: binary_classification
+  classes:
+    - NORMAL
+    - PNEUMONIA
+
+data:
+  expected_root: data/chest_xray
+  image_size: 224
+  batch_size: 32
+
+training:
+  framework: pytorch
+  transfer_learning: true
+  threshold: 0.98
+
+evaluation:
+  metrics:
+    - accuracy
+    - roc_auc
+    - sensitivity_pneumonia
+    - specificity_normal
+    - macro_f1
+
+disclaimer:
+  medical_use: false
+  educational_only: true
