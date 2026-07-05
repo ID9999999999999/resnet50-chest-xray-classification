@@ -1,0 +1,26 @@
+{
+  "checkpoint_path": "/content/drive/MyDrive/pneumonia_resnet50_FINAL_outputs/best_model.pth",
+  "base_output_dir": "/content/drive/MyDrive/pneumonia_resnet50_FINAL_outputs",
+  "recommended_strategy": "normal_protect_spec_1.00_sens_0.95",
+  "recommended_threshold": 0.98,
+  "recommended_row": {
+    "strategy": "normal_protect_spec_1.00_sens_0.95",
+    "threshold": 0.98,
+    "selection_reason": "constraints_satisfied",
+    "VAL_accuracy": 0.9693486590038314,
+    "VAL_sensitivity": 0.9587628865979382,
+    "VAL_specificity": 1.0,
+    "VAL_macro_f1": 0.9613046701260193,
+    "VAL_fp_normal_errors": 0,
+    "VAL_fn_pneumonia_errors": 24,
+    "TEST_accuracy": 0.9086538461538461,
+    "TEST_sensitivity": 0.9769230769230769,
+    "TEST_specificity": 0.7948717948717948,
+    "TEST_macro_f1": 0.8987678987678988,
+    "TEST_fp_normal_errors": 48,
+    "TEST_fn_pneumonia_errors": 9,
+    "TEST_precision_pneumonia": 0.8881118881118881,
+    "TEST_f1_pneumonia": 0.9304029304029304,
+    "TEST_roc_auc": 0.9599112426035503
+  }
+}

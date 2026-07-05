@@ -1,0 +1,15 @@
+{
+  "strategy": "normal_protect_spec_1.00_sens_0.95",
+  "threshold": 0.98,
+  "accuracy": 0.9086538461538461,
+  "precision_pneumonia": 0.8881118881118881,
+  "sensitivity_pneumonia": 0.9769230769230769,
+  "specificity_normal": 0.7948717948717948,
+  "f1_pneumonia": 0.9304029304029304,
+  "macro_f1": 0.8987678987678988,
+  "roc_auc": 0.9599112426035503,
+  "tn": 186,
+  "fp_normal_errors": 48,
+  "fn_pneumonia_errors": 9,
+  "tp": 381
+}
