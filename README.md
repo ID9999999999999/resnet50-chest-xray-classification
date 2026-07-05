@@ -1,5 +1,7 @@
 # ResNet50 Chest X-ray Classification
 
+[![Python CI](https://github.com/ID9999999999999/resnet50-chest-xray-classification/actions/workflows/python-ci.yml/badge.svg)](https://github.com/ID9999999999999/resnet50-chest-xray-classification/actions/workflows/python-ci.yml)
+
 Educational PyTorch pipeline for ResNet50-based chest X-ray image classification.
 
 This project is for machine-learning experimentation and education only.
