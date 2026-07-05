@@ -9,7 +9,7 @@ It is not a medical diagnostic system.
 
 ## Status
 
-Private preparation stage.
+Portfolio-ready educational project.
 
 ## Project Goal
 
