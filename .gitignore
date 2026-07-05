@@ -12,3 +12,5 @@ checkpoints/
 *.ckpt
 *.zip
 .DS_Store
+.pytest_cache/
+tests/__pycache__/
