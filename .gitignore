@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/
+datasets/
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.zip
+.DS_Store
